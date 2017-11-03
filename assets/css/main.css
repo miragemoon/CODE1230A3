@@ -3267,7 +3267,7 @@
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			width: 40%;
-			max-width: 48rem;
+			max-width: 40rem;
 			margin: 0 auto;
 		}
 
@@ -3302,13 +3302,13 @@
 				border-radius: 0;
 			}
 
-
 		@media screen and (max-width: 1920px) {
 
 			.banner.style1 .content {
-				padding: 5.5rem 5.5rem 4rem 5.5rem ;
+				padding: 5rem 5rem 3rem 5rem ;
 			}
 
+		}
 
 		@media screen and (max-width: 1680px) {
 
@@ -3329,7 +3329,7 @@
 		@media screen and (max-width: 980px) {
 
 			.banner.style1 .content {
-				padding: 3.75rem 3rem 1.75rem 3rem ;
+				padding: 3rem 3rem 1.75rem 3rem ;
 			}
 
 		}
@@ -3337,7 +3337,7 @@
 		@media screen and (max-width: 600px) {
 
 			.banner.style1 .content {
-				padding: 2.5rem 2rem 0.5rem 2rem ;
+				padding: 2rem 2rem 0.5rem 2rem ;
 			}
 
 		}
@@ -3914,7 +3914,7 @@
 				border-radius: 0 0 1rem 1rem;
 			}
 
-		@media screen and (max-width: 19200px) {
+		@media screen and (max-width: 1920px) {
 
 			.banner.style4 {
 				padding: 5rem 5rem 3rem 5rem ;
@@ -4104,7 +4104,7 @@
 		.banner.style5 .content {
 			position: relative;
 			width: 40rem;
-			max-width: 100%;
+			max-width: 40%;
 			margin-bottom: 2rem;
 			z-index: 1;
 		}
@@ -4308,7 +4308,7 @@
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			width: 45%;
-			max-width: 48rem;
+			max-width: 45rem;
 			margin: 0 auto;
 		}
 
@@ -4523,7 +4523,7 @@
 			-ms-flex-shrink: 1;
 			flex-shrink: 1;
 			width: 30%;
-			max-width: 48rem;
+			max-width: 30rem;
 			margin: 0 auto;
 		}
 
@@ -4697,7 +4697,7 @@
 			-ms-object-position: right;
 			object-position: right;
 		}
-		
+
 /* Gallery (transitions) */
 
 	.gallery.onload-fade-in article .image img {
@@ -5743,10 +5743,18 @@
 			width: 32rem;
 		}
 
+	@media screen and (max-width: 1920px) {
+
+		.wrapper.style1 > .inner {
+			padding: 4rem 4rem 2rem 4rem ;
+		}
+
+	}
+
 	@media screen and (max-width: 1680px) {
 
 		.wrapper.style1 > .inner {
-			padding: 2.5rem 2.5rem 3rem 2.5rem ;
+			padding: 4rem 4rem 2rem 4rem ;
 		}
 
 	}
@@ -5800,6 +5808,18 @@
 			.wrapper.style2 > .inner.small {
 				width: 32rem;
 			}
+
+		@media screen and (max-width: 1920px) {
+
+			.wrapper.style2 {
+				padding: 5rem;
+			}
+
+				.wrapper.style2 > .inner {
+					padding: 3.75rem 2.5rem 1.75rem 2.5rem ;
+				}
+
+		}
 
 		@media screen and (max-width: 1680px) {
 
