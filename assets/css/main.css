@@ -5372,8 +5372,8 @@
 			display: block;
 			position: relative;
 			overflow: hidden;
-			width: 40rem;
-			max-width: 40vw;
+			width: 50%;
+			max-width: 50%;
 		}
 
 			.gallery.style2 article .image {
